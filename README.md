@@ -10,6 +10,8 @@ The code can either be compiled as a Visual Studio project or with cMake. In bot
 
 It is recommended to use [vcpkg](https://github.com/microsoft/vcpkg) for the installation of these libraries to ensure that all additional dependencies are installed as well. If cMake is used to compile the code, the two `CMakeLists.txt` files have to be adjusted to fit the installation directories of the libraries. 
 
+Check the releases if a compiled version of the application is needed.
+
 ## Configuration
 When the application is started, the path to a config file has to be passed as a command line argument. The config file allows the user to specify various parameters for the application. The folder `configs` contains an example. 
 
