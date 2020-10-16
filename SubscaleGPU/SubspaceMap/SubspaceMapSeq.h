@@ -2,8 +2,7 @@
 
 #include "../Tables/SubspaceTable.cuh"
 #include "../DoubleHashing/DoubleHash.h"
-
-typedef unsigned int uint32_t;
+#include <cstdint>
 
 class SubspaceMapSeq
 {

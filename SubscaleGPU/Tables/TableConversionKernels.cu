@@ -1,6 +1,6 @@
 #include "TableConversionKernels.cuh"
 
-typedef unsigned int uint32_t;
+#include <cstdint>
 
 // removes all entries with less dimensions in the subspace than the given number
 __global__ void tableDimensionsFilterKernel(DenseUnitTable* table, int minNumberOfDims)

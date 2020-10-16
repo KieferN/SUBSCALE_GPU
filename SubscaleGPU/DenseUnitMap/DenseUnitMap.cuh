@@ -2,7 +2,7 @@
 #include "cuda_runtime.h"
 
 #include "../StadiumHashing/StadiumHash.cuh"
-#include "../Tables/DenseUnitTable.cuh""
+#include "../Tables/DenseUnitTable.cuh"
 
 #include <stdint.h>
 

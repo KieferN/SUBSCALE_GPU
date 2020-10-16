@@ -1,8 +1,7 @@
 #pragma once
 #include "../Tables/DenseUnitTable.cuh"
 #include "../DoubleHashing/DoubleHash.h"
-
-
+#include <cstdint>
 
 // sequential implementation of a hashtable for dense units
 class DenseUnitMapSeq

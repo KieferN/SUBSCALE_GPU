@@ -12,4 +12,4 @@ set_target_properties(subscale PROPERTIES CUDA_SEPARABLE_COMPILATION ON CUDA_ARC
 target_compile_options(subscale PRIVATE $<$<COMPILE_LANGUAGE:CUDA>: --relocatable-device-code=true>)
 
 # link libraries (ATTENTION: change the path of mlpack to compile the code)
-target_link_libraries(mySubscale PRIVATE nlohmann_json nlohmann_json::nlohmann_json "/home/luser/vcpkg/buildtrees/mlpack/x64-linux-dbg/lib/libmlpack.a")
+target_link_libraries(subscale PRIVATE nlohmann_json nlohmann_json::nlohmann_json "/home/luser/vcpkg/buildtrees/mlpack/x64-linux-dbg/lib/libmlpack.a")

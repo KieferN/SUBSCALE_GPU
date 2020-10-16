@@ -1,6 +1,7 @@
 #pragma once
 #include "../StadiumHashing/ConcStadiumHash.cuh"
 #include "../Tables/SubspaceTable.cuh"
+#include <cstdint>
 
 // Class to create a table for cluster candidates
 class SubspaceMap : public ConcStadiumHash<uint32_t, uint32_t>
