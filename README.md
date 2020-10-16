@@ -13,6 +13,6 @@ It is recommended to use [vcpkg](https://github.com/microsoft/vcpkg) for the ins
 Check the releases if a compiled version of the application is needed.
 
 ## Configuration
-When the application is started, the path to a config file has to be passed as a command line argument. The config file allows the user to specify various parameters for the application. The folder `configs` contains an example. 
+When the application is started, the path to a config file has to be passed as a command line argument. The config file allows the user to specify various parameters for the application. The file `config.json` is an example for a config file. 
 
 A parameter that currently can't be altered inside of a config file, is the maximum size of files that are read or written from/to system memory. This is set to 50MB, however if the use of larger files is required, the size can be increased inside of the class `CsvDataHandler`.
